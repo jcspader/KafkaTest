@@ -12,7 +12,7 @@
 ```sh
     PS: KafkaTest\KafkaTest.Customer.MVC\ClientApp> npm install
 ````    
-4. Compilar e Executar Projetos 
+4. Compilar e Executar Projetos no Visual Studio
 
 
 
