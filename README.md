@@ -2,8 +2,11 @@
 
 ## Setup
 1. Clone do Projeto
-2. Subir instancias no Docker: > docker-compose up -d
-3. Compilar e Executar Projetos 
+2. Subir instancias no Docker: 
+    PS: KafkaTest> docker-compose up -d
+3. Instalar dependencias do NPM: 
+    PS: KafkaTest\KafkaTest.Customer.MVC\ClientApp> npm install
+4. Compilar e Executar Projetos 
 
 ![Demo](https://i.ibb.co/0fTqfq7/Capture.jpg)
 
