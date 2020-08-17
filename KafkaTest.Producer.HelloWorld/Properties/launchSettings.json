@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "KafkaTest.Producer.HelloWorld": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

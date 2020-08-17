@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaTest.Producer.HelloWorld", "KafkaTest.Producer.HelloWorld\KafkaTest.Producer.HelloWorld.csproj", "{4A6F208B-F255-45A3-A4BF-907B2B99708E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaTest.Customer.MVC", "KafkaTest.Customer.MVC\KafkaTest.Customer.MVC.csproj", "{9AEAEF67-59E9-4D3E-9CF1-07483BFAFEA9}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "KafkaTest.Shared", "KafkaTest.Shared\KafkaTest.Shared.shproj", "{246ED60B-B369-4462-82E4-A983E6185EA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4BA782FF-3745-418F-A595-F5ADAE036CC8}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		KafkaTest.Shared\KafkaTest.Shared.projitems*{246ed60b-b369-4462-82e4-a983e6185ea1}*SharedItemsImports = 13
+		KafkaTest.Shared\KafkaTest.Shared.projitems*{4a6f208b-f255-45a3-a4bf-907b2b99708e}*SharedItemsImports = 5
+		KafkaTest.Shared\KafkaTest.Shared.projitems*{9aeaef67-59e9-4d3e-9cf1-07483bfafea9}*SharedItemsImports = 5
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A6F208B-F255-45A3-A4BF-907B2B99708E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A6F208B-F255-45A3-A4BF-907B2B99708E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A6F208B-F255-45A3-A4BF-907B2B99708E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A6F208B-F255-45A3-A4BF-907B2B99708E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AEAEF67-59E9-4D3E-9CF1-07483BFAFEA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AEAEF67-59E9-4D3E-9CF1-07483BFAFEA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AEAEF67-59E9-4D3E-9CF1-07483BFAFEA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AEAEF67-59E9-4D3E-9CF1-07483BFAFEA9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24A2CBE8-9F74-4339-946E-57E1DB7C8F77}
+	EndGlobalSection
+EndGlobal
